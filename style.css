@@ -222,10 +222,9 @@ button {
   line-height: 2rem;
   cursor: pointer;
   list-style: none;
-}
-.about-me li:hover {
   color: green;
 }
+
 @media screen and (max-width: 768px) {
   .about-me {
     width: 100%;
@@ -302,7 +301,7 @@ button {
 }
 @media screen and (max-width: 768px) {
   .project {
-    margin-top: 15%;
+    margin-top: 50%;
     width: 100%;
   }
   .project-image {
@@ -318,7 +317,7 @@ button {
 /* /////  contact   ////// */
 
 .contact {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: none;
 }
@@ -395,10 +394,11 @@ input {
   padding: 1rem;
   background-color: #fff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .contact {
     width: 100%;
-    margin-top: 20%;
+    margin-top: 35%;
+    padding: 2.5rem 0;
   }
 
   .content p {
